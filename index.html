@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator BMI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Kalkulator BMI</h1>
+
+    <form id="bmi-form">
+      <label for="weight">Waga (kg)</label>
+      <input type="number" id="weight" step="0.1" min="1" placeholder="np. 70">
+
+      <label for="height">Wzrost (cm)</label>
+      <input type="number" id="height" step="1" min="1" placeholder="np. 175">
+
+      <button type="submit" id="calculate">Oblicz BMI</button>
+    </form>
+
+    <section id="result" aria-live="polite"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Systemowe
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Edytory i IDE
+.vscode/
+.idea/
+*.swp
+
+# Zależności i build
+node_modules/
+dist/
+build/
+
+# Logi i pliki tymczasowe
+*.log
+*.tmp
+.env
