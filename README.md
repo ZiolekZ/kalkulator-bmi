@@ -61,3 +61,5 @@ Prosta strona internetowa do obliczania wskaźnika BMI (Body Mass Index). Projek
 ## Zasady współpracy
 
 Szczegóły znajdują się w pliku [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Autor Zmian: Konrad Ziółkowski, zadanie: logika kalkulatora BMI
