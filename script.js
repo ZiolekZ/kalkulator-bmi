@@ -12,3 +12,14 @@
 // 3. Wyświetlić wynik (zaokrąglony do 1 miejsca po przecinku) w #result.
 // 4. Wyświetlić kategorię: <18.5 niedowaga, 18.5-24.9 prawidłowa, 25-29.9 nadwaga, >=30 otyłość.
 // 5. Sprawdzić poprawność danych (puste pola, liczby <= 0) i pokazać komunikat błędu.
+
+const form = document.getElementById("bmi-form");
+const weightInput = document.getElementById("weight");
+const heightInput = document.getElementById("height");
+const resultBox = document.getElementById("result");
+
+// BMI = waga (kg) / wzrost w metrach do kwadratu
+function calculateBmi(weightKg, heightCm) {
+  const heightM = heightCm / 100;
+  return weightKg / (heightM * heightM);
+}
