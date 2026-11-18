@@ -23,3 +23,10 @@ function calculateBmi(weightKg, heightCm) {
   const heightM = heightCm / 100;
   return weightKg / (heightM * heightM);
 }
+
+function getCategory(bmi) {
+  if (bmi < 18.5) return "niedowaga";
+  if (bmi < 25) return "waga prawidłowa";
+  if (bmi < 30) return "nadwaga";
+  return "otyłość";
+}
