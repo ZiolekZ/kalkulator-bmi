@@ -46,17 +46,17 @@ Prosta strona internetowa do obliczania wskaźnika BMI (Body Mass Index). Projek
 
 | Rola | Imię i nazwisko | GitHub |
 |------|-----------------|--------|
-| Kierownik projektu (Project Manager) | TODO | @TODO |
-| Członek zespołu | TODO | @TODO |
-| Członek zespołu | TODO | @TODO |
+| Kierownik projektu (Project Manager) | Dawid Łoszewski
+| Członek zespołu | Zuzanna Wengrzyn
+| Członek zespołu | Konrad Ziółkowski
 
 ## Podział zadań
 
 | Zadanie | Osoba | Plik |
 |---------|-------|------|
-| Logika obliczania BMI i kategorii | TODO | `script.js` |
-| Stylowanie strony | TODO | `style.css` |
-| Przegląd i scalanie Pull Requestów | Kierownik projektu | - |
+| Logika obliczania BMI i kategorii | Konrad Ziółkowski | `script.js` |
+| Stylowanie strony | Zuzanna Wengrzyn | `style.css` |
+| Przegląd i scalanie Pull Requestów | Kierownik projektu
 
 ## Zasady współpracy
 
