@@ -30,3 +30,28 @@ function getCategory(bmi) {
   if (bmi < 30) return "nadwaga";
   return "otyłość";
 }
+
+function showError(message) {
+  resultBox.className = "error";
+  resultBox.textContent = message;
+}
+
+function showResult(bmi) {
+  resultBox.className = "success";
+  resultBox.textContent =
+    "Twoje BMI: " + bmi.toFixed(1) + " (" + getCategory(bmi) + ")";
+}
+
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  const weight = parseFloat(weightInput.value);
+  const height = parseFloat(heightInput.value);
+
+  if (isNaN(weight) || isNaN(height) || weight <= 0 || height <= 0) {
+    showError("Podaj poprawną wagę i wzrost (liczby większe od zera).");
+    return;
+  }
+
+  showResult(calculateBmi(weight, height));
+});
